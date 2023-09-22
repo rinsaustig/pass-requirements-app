@@ -1,0 +1,94 @@
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  height: 1rem;
+  margin: 0 1rem;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+div {
+  display: block;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  margin: 0.5rem;
+  list-style: none;
+  color: black;
+}
+
+span:first-child {
+  margin-right: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+.accept {
+  background-color: green;
+}
+
+.deny {
+  background-color: red;
+}
